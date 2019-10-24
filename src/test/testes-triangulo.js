@@ -34,6 +34,27 @@ describe('Verificando se é isósceles', () => {
   });
 });
 
+describe('Verificando se é retângulo', () => {
+  it('Teste: Triangulo retângulo', () => {
+    let triangulo = new Triangulo(6, 8, 10)
+    assert.equal(triangulo.tipo_angulo(), "Retangulo");
+  });
+});
+
+describe('Verificando se é acutangulo', () => {
+  it('Teste: Triangulo acutangulo', () => {
+    let triangulo = new Triangulo(2, 2, 2);
+    assert.equal(triangulo.tipo_angulo(), "Acutangulo");
+  });
+});
+
+describe('Verificando se é obtusangulo', () => {
+  it('Teste: Triangulo obtusangulo', () => {
+    let triangulo = new Triangulo(10, 5, 6);
+    assert.equal(triangulo.tipo_angulo(), "Obtusangulo");
+  });
+});
+
 describe('Verificando se os tamanhos lados são válidos', () => {
   it('Teste: Lado com valor que viola validade do triângulo ', () => {
     let triangulo = new Triangulo(100, 10, 10)
