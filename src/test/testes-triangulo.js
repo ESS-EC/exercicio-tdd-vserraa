@@ -9,7 +9,6 @@ describe('Verificando se é escaleno', () => {
     let triangulo = new Triangulo(7, 5, 10)
     assert.equal(triangulo.tipo(), "Escaleno");
   });
-
 });
 
 describe('Verificando se é equilatero', () => {
