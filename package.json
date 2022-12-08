@@ -15,7 +15,7 @@
     "chromedriver": "^78.0.1"
   },
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "mongodb": "^3.3.3",
     "npm": "^6.12.1",
     "requests": "^0.3.0"
